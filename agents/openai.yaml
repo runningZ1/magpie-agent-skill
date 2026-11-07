@@ -1,0 +1,4 @@
+interface:
+  display_name: "Magpie Agent CLI"
+  short_description: "通过无交互 CLI 查询配置、模型与用量，预览变更并验证结果"
+  default_prompt: "使用 $magpie 通过 magpie-agent 查询本机 Agent 设置、可用模型和近 7 天用量。"

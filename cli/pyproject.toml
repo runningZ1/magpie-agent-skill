@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "magpie-agent-cli"
+version = "0.2.0"
+description = "Bounded typed agent adapter for the official Magpie CLI"
+license = {file = "LICENSE"}
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+magpie-agent = "magpie_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
